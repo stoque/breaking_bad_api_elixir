@@ -1,6 +1,6 @@
-# BreakingBadApiElixir
+# Breaking Bad API Elixir client
 
-**TODO: Add description**
+A Elixir client for retrieving content from the [Breaking Bad API](https://breakingbadapi.com/).
 
 ## Installation
 
