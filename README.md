@@ -1,6 +1,6 @@
 # Breaking Bad API Elixir client
 
-A Elixir client for retrieving content from the [Breaking Bad API](https://breakingbadapi.com/).
+An Elixir client for retrieving content from the [Breaking Bad API](https://breakingbadapi.com/).
 
 ## Installation
 
