@@ -11,8 +11,7 @@ defmodule BreakingBadApiElixir.Api.Episodes.Get do
 
   def get_random_episode() do
     {_, body} = get_all_episodes()
-    total_episodes = count(body)
-    episode_index = :rand.uniform(total_episodes)
+    episode_index = count(body) |> :rand.uniform()
     Enum.at(body, episode_index - 1)
   end
 
